@@ -23,10 +23,11 @@ function App() {
       console.log(e)
     }
   }
+  
 
   useEffect(() => {
     fetchUsers(API)
-  })
+  },[])
 
   return (
 
